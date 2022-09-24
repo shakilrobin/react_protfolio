@@ -1,0 +1,72 @@
+.Intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    
+
+
+}
+
+.i-left{
+    display: flex;
+    position:relative;
+    flex:1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+    gap:0.25rem;
+}
+.i-name>:nth-child(1){
+    color:var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    font-weight:100;
+    font-size: 1.25rem;
+    color: var(--grey);
+   
+}
+.i-button{
+    height: 2rem;
+    width: 6rem;
+}
+.i-icon{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    
+}
+.i-icon > * {
+    
+    transform: scale(0.5);
+  }
+  .i-icon>*:hover{
+        cursor: pointer;
+  }
+.i-right{
+    flex:1;
+    position: relative;
+    
+    
+}
+.i-right > * {
+    position: absolute;
+    z-index: 1;
+  }
+  .i-right > :nth-child(1) {
+    transform: scale(1.4);
+    left: 28%;
+    
+  }
