@@ -17,7 +17,7 @@ const Navbar = () => {
                     <li>Testimonial</li>
                 </ul>
             </div>
-            <button className="button n-bitton">Contact us</button>
+            <button className="button n-bitton">Contact</button>
         </div>
     </div>
   )
